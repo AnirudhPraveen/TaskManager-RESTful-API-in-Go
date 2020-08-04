@@ -5,7 +5,6 @@ import (
 	"github.com/AnirudhPraveen/TaskManager-RESTful-API-in-Go/controllers"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
-	"github.com/shijuvar/go-web/taskmanager/common"
 )
 
 func SetTaskRoutes(routes *mux.Router) *mux.Router {
