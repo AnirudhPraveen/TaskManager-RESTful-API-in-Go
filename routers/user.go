@@ -1,8 +1,8 @@
 package routers
 
 import (
+	"github.com/AnirudhPraveen/TaskManager-RESTful-API/controllers"
 	"github.com/gorilla/mux"
-	"github.com/shijuvar/go-web/taskmanager/controllers"
 )
 
 func SetUserRoutes(router mux.Router) mux.Router {
